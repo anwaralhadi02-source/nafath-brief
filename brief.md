@@ -28,5 +28,6 @@ Anonymization removes identifying links so people are no longer identifiable fro
 
 Resource: Anonymisation - Information Commissioner’s Office - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/
 ## Misconception in My Track
-
+A common misconception is that Retrieval-Augmented Generation (RAG) completely prevents AI hallucinations. In fact, RAG can reduce inaccurate answers by providing relevant information, but it does not guarantee correctness. The model may still produce incorrect answers when retrieved information is incomplete or irrelevant. Microsoft explains this in the “Known limitations” section of its RAG documentation. This shows why a public-service AI assistant should use reliable sources, evaluate answers, and provide a safe way to handle questions when the available evidence is insufficient.
 ## Open Question
+How can a government AI assistant reliably detect when retrieved information is incomplete or conflicting and decide when to refer a question to a human officer?
