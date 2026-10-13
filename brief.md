@@ -16,11 +16,17 @@ App Transport Security (ATS) is an Apple security feature that protects privacy 
 
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 ## Networking
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses. This gives IPv6 a much larger address space to support the growing number of connected devices. IPv4 address availability is limited, making it harder to assign unique public addresses as internet use grows. IPv6 helps provide many more addresses and supports a scalable internet infrastructure for future devices and services.
 
+Resource: RFC 8200: Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200/
 ## Cybersecurity
+Prompt injection occurs when malicious instructions manipulate an AI assistant. Direct prompt injection comes from a user’s input, while indirect prompt injection is hidden in external content, such as a webpage or file that the AI reads. Two ways to reduce risk are to separate untrusted content from system instructions and restrict the AI’s permissions using the principle of least privilege. These controls reduce risk but cannot guarantee complete prevention.
 
+Resource: LLM01: Prompt Injection - OWASP Gen AI Security Project - https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
 ## Data
+Anonymization removes identifying links so people are no longer identifiable from the data, considering the risk of re-identification. Pseudonymization replaces direct identifiers, such as names, with codes while keeping additional information that may reconnect the data to a person. Under UK GDPR, effectively anonymized information falls outside data protection law, while pseudonymized information remains personal data and is still covered by the law. Chat logs should be protected carefully to reduce privacy risks.
 
+Resource: Anonymisation - Information Commissioner’s Office - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/
 ## Misconception in My Track
 
 ## Open Question
